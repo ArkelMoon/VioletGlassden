@@ -1,16 +1,16 @@
 /**
- * @name Violet Glassden
- * @author Gibbu#1211 edited by ! Arkel Moon#0054
- * @version 2.0.0
+ * @name Violet Everglass
+ * @author Gibbu#1211 edited by ! Arkel#0054
+ * @version 2.0.1
  * @description Display your picture of choice with adjustable blur and brightness. Dark theme is required.
  * @invite ZHthyCw
  * @donate https://paypal.me/IanRGibson
  * @authorId 174868361040232448
- * @source https://github.com/Gibbu/BetterDiscord-Themes/tree/master/FrostedGlass
+ * @source https://github.com/DiscordStyles/FrostedGlass
  * @website https://gibbu.me/
 */
 
-@import url("https://discordstyles.github.io/FrostedGlass/base.css");
+@import url("https://discordstyles.github.io/FrostedGlass/dist/FrostedGlass.css");
 
 /* BlackBox tags */
 @import url('https://monstrousdev.github.io/themes/addons/user-tags.css');
@@ -37,10 +37,9 @@
   --home-button-position: center; /* Position of home button image | DEAFULT: center */
 
   /* Brightness variables */
-  --serverlist-brightness: 0.7
-  ; /* Brightness for serverlist | 0 - 1 (decimals allowed) | DEFAULT: 0.8 */
+  --serverlist-brightness: 0.6; /* Brightness for serverlist | 0 - 1 (decimals allowed) | DEFAULT: 0.8 */
   --left-brightness: 0.7; /* Channels and DM list brightness | 0 - 1 (decimals allowed) | DEFAULT: 0.8 */
-  --middle-brightness: 0.7; /* Chat brightness | 0 - 1 (decimals allowed) | DEFAULT: 0.6 */
+  --middle-brightness: 0.6; /* Chat brightness | 0 - 1 (decimals allowed) | DEFAULT: 0.6 */
   --right-brightness: 0; /* Members and Now Playing brightness | 0 - 1 (decimals allowed) | DEFAULT: 0 */
   --popout-modal-brightness: 0.86; /* Brightness for popouts and modals | 0 - 1 (decimals allowed) | DEFAULT: 0.75 */
 
@@ -58,7 +57,6 @@
   --window-roundness: 10px; /* Roundness of Discord | DEFAULT: 10px */
   --scrollbar-colour: rgba(255,255,255,0.05); /* DEFAULT: rgba(255,255,255,0.05) */
   --link-colour: #8660fa; /* DEFAULT: #00b0f4 */
-  --show-gift-gif-buttons: none; /* Show buttons: block | Hide buttons: none | DEFAULT: none */
 
   /*
     Visit https://fonts.google.com and select one to your liking.
